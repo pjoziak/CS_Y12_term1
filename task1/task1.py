@@ -24,6 +24,7 @@ def convert_to_int(x: float) -> float | int:
         return int(x)
     return x
 
+print("some change")
 
 def get_longest_increasing_subsequence(numbers: list[float]) -> list[float]:
     subsequences = []
