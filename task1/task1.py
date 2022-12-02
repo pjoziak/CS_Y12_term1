@@ -1,5 +1,5 @@
 def check_continue() -> bool:
-    return validate_continue(input('Do you want to add more numbers? [y/n] '))
+    return validate_continue(input('Do you want to add more numbers? [d/n] '))
 
 
 def validate_continue(s: str) -> bool:
